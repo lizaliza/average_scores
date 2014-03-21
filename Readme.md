@@ -1,9 +1,8 @@
 Review 1.py
 =====
-You've done a great job completing this program.
-We've created quite a few meaningful functions. 
-Namely, we've created helper functions to print 
+This mini - project will give you some idea of calculating the statistical 
+data by means of functions, lists, and translation of mathematical formulas reporting software.
+I've created quite a few meaningful functions. 
+Namely, i've created helper functions to print 
 a list of grades, compute the sum, average, variance, 
 and standard deviation about a set of grades.
-Let's wrap up by printing out all of the statistics.
-
