@@ -1,16 +1,16 @@
-def print_grades(grades):
+def print_grades(grades): # ????????? ?????? ?????? ?? ?????
     for grade in grades:
         print grades
 
 
-def grades_sum(grades):
+def grades_sum(grades): # ??????? ??????? ????? ??????
     total = 0
     for grade in grades:
         total += grade
     return total
 
 
-def grades_average(grades):
+def grades_average(grades): # ??????? ??????? ??????? ??????
     sum_of_grades = grades_sum(grades)
     average = sum_of_grades / float(len(grades))
     return average
@@ -34,7 +34,7 @@ var = grades_variance(grad)
 for grade in grad:
     print grade
 
-print grades_sum(grad)
-print grades_average(grad)
+print "Summa scores ", grades_sum(grad)
+print "Average scores " + str(grades_average(grad))
 print grades_variance(grad)
 print grades_std_deviation(var)
