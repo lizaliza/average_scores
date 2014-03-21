@@ -3,7 +3,7 @@ def print_grades(grades): # Procedure output the evaluation on the screen
         print grades
 
 
-def grades_sum(grades): # # Function calculates the sum of the estimates
+def grades_sum(grades): # Function calculates the sum of the estimates
     total = 0
     for grade in grades:
         total += grade
